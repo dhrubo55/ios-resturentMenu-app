@@ -15,6 +15,9 @@
 		7BC346E3215B3BDB00F07170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC346E2215B3BDB00F07170 /* main.m */; };
 		7BC346ED215B3BDB00F07170 /* passing_data_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC346EC215B3BDB00F07170 /* passing_data_testTests.m */; };
 		7BC346F8215B3BDC00F07170 /* passing_data_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC346F7215B3BDC00F07170 /* passing_data_testUITests.m */; };
+		7BC34706215B3D7E00F07170 /* resturentCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC34705215B3D7E00F07170 /* resturentCustomCell.xib */; };
+		7BC34709215B3E4300F07170 /* resturentCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC34708215B3E4300F07170 /* resturentCustomCell.m */; };
+		7BC3470F215B585700F07170 /* detailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3470E215B585700F07170 /* detailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		7BC346F3215B3BDC00F07170 /* passing_data_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passing_data_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC346F7215B3BDC00F07170 /* passing_data_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passing_data_testUITests.m; sourceTree = "<group>"; };
 		7BC346F9215B3BDC00F07170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC34705215B3D7E00F07170 /* resturentCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resturentCustomCell.xib; sourceTree = "<group>"; };
+		7BC34707215B3E4300F07170 /* resturentCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resturentCustomCell.h; sourceTree = "<group>"; };
+		7BC34708215B3E4300F07170 /* resturentCustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resturentCustomCell.m; sourceTree = "<group>"; };
+		7BC3470D215B585700F07170 /* detailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailsViewController.h; sourceTree = "<group>"; };
+		7BC3470E215B585700F07170 /* detailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				7BC346DE215B3BDB00F07170 /* LaunchScreen.storyboard */,
 				7BC346E1215B3BDB00F07170 /* Info.plist */,
 				7BC346E2215B3BDB00F07170 /* main.m */,
+				7BC34705215B3D7E00F07170 /* resturentCustomCell.xib */,
+				7BC34707215B3E4300F07170 /* resturentCustomCell.h */,
+				7BC34708215B3E4300F07170 /* resturentCustomCell.m */,
+				7BC3470D215B585700F07170 /* detailsViewController.h */,
+				7BC3470E215B585700F07170 /* detailsViewController.m */,
 			);
 			path = passing_data_test;
 			sourceTree = "<group>";
@@ -238,6 +251,7 @@
 				7BC346E0215B3BDB00F07170 /* LaunchScreen.storyboard in Resources */,
 				7BC346DD215B3BDB00F07170 /* Assets.xcassets in Resources */,
 				7BC346DB215B3BD700F07170 /* Main.storyboard in Resources */,
+				7BC34706215B3D7E00F07170 /* resturentCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,8 @@
 				7BC346D8215B3BD700F07170 /* ViewController.m in Sources */,
 				7BC346E3215B3BDB00F07170 /* main.m in Sources */,
 				7BC346D5215B3BD700F07170 /* AppDelegate.m in Sources */,
+				7BC3470F215B585700F07170 /* detailsViewController.m in Sources */,
+				7BC34709215B3E4300F07170 /* resturentCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
